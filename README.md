@@ -52,18 +52,18 @@ export const initialState = {
 }
 ```
 
-- [ ] Ekranınızın state'teki değişikliği doğru bir şekilde yansıttığını kontrol edin.
+- [*] Ekranınızın state'teki değişikliği doğru bir şekilde yansıttığını kontrol edin.
 
 #### Hazır action'ı bağlama.
 
 > _Artık durumumuzu görebildiğimize göre, kullanıcının değiştirebilmesine izin verelim. Hazır bir action ile başlayalım...Bir tanesini total'e ekleyelim._
 
-- [ ] `ADD_ONE` actionını (./reducer/index.js içindeki) ve `addOne` action oluşturucuyu (./actions/index.js içindeki) alın. Bu action totale 1 ekleyecek.
-- [ ] `addOne` action oluşturucuyu App.js içine import edin.
-- [ ] `App.js` içinde 1 butonuna bir `onClick` event handler metodu ekleyin.
-- [ ] Event handler içinde, `addOne` action oluşturucuyu ekleyin.
-- [ ] 1 butonuna bastığınızda eventinizin doğru çalışıp çalışmadığını tarayıcınızda test edin. Total'iniz 1 artmalı.
-- [ ] Bir butona tıklandığında güncellenen totali nasıl gösterebileceğimizi düşünün. Neler uygulamalıyız? `sorunu-anlamak.md` dosyası içine, kendi cümlelerinizle tüm adımları yazın.
+- [*] `ADD_ONE` actionını (./reducer/index.js içindeki) ve `addOne` action oluşturucuyu (./actions/index.js içindeki) alın. Bu action totale 1 ekleyecek.
+- [*] `addOne` action oluşturucuyu App.js içine import edin.
+- [*] `App.js` içinde 1 butonuna bir `onClick` event handler metodu ekleyin.
+- [*] Event handler içinde, `addOne` action oluşturucuyu ekleyin.
+- [*] 1 butonuna bastığınızda eventinizin doğru çalışıp çalışmadığını tarayıcınızda test edin. Total'iniz 1 artmalı.
+- [*] Bir butona tıklandığında güncellenen totali nasıl gösterebileceğimizi düşünün. Neler uygulamalıyız? `sorunu-anlamak.md` dosyası içine, kendi cümlelerinizle tüm adımları yazın.
 
 #### Daha iyi bir hazır action bağlayın.
 
