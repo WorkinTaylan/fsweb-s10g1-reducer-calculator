@@ -39,10 +39,10 @@ Bu hafta reducer yaklaşımını incelediniz. Bu projede bugün öğrendiklerimi
 > _Artık App bileşenimizde state'e erişimimiz var (Bunu console.log ya da React dev tools'dan gözlemleyebilirsiniz). State'i örnek ekranımızdaki gibi render edelim._
 
 - [*] Operation elemanı içindeki "X" i `state.operation` ı referans alarak değiştirin.
-- [ ] Memory elemanı içindeki "0" ı `state.memory` yi referans alarak değiştirin.
-- [ ] TotalDisplay bileşenine değer atarken "0" ı `state.total` ı referans alarak değiştirin.
-- [ ] UI'de initialState'teki değerlerle total, operation ve memory'yi kontrol edin (100, \* ve sırasıyla 100)
-- [ ] Reducer'daki initialState değerini değiştirerek elde ettiğiniz state'i test edin:
+- [*] Memory elemanı içindeki "0" ı `state.memory` yi referans alarak değiştirin.
+- [*] TotalDisplay bileşenine değer atarken "0" ı `state.total` ı referans alarak değiştirin.
+- [*] UI'de initialState'teki değerlerle total, operation ve memory'yi kontrol edin (100, \* ve sırasıyla 100)
+- [*] Reducer'daki initialState değerini değiştirerek elde ettiğiniz state'i test edin:
 
 ```
 export const initialState = {
