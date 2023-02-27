@@ -16,11 +16,11 @@ Bu hafta reducer yaklaşımını incelediniz. Bu projede bugün öğrendiklerimi
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayın
-- [ ] Klonlayın
-- [ ] Ana dizine gidin
-- [ ] `npm install`
-- [ ] `npm start`
+- [*] Forklayın
+- [*] Klonlayın
+- [*] Ana dizine gidin
+- [*] `npm install`
+- [*] `npm start`
 
 ### Görev 2: Proje Gereksinimleri
 
@@ -28,17 +28,17 @@ Bu hafta reducer yaklaşımını incelediniz. Bu projede bugün öğrendiklerimi
 
 > _Kullanıcı arayüzümüzü reducera ve ilk state'e bağlayarak sürecimize başlayalım.._
 
-- [ ] Uygulama klasöründe gezinin, özellikle "App.js", "/reducer/index.js" ve "/actions/index.js" dosyaları.
-- [ ] `TotalDisplay` bileşeni bir değer alır ve bu değeri stillenmiş bir textarea'da gösterir. BU BİLEŞENİ DEĞİŞTİRMENİZE GEREK YOK.
-- [ ] `CalcButton` bileşeni bir `onClick` metodu ve bir değer alır, bu değeri görüntüler ve `onClick` metodunu ui butonuna ekler. BU BİLEŞENİ DEĞİŞTİRMENİZE GEREK YOK.
-- [ ] App.js içine, useReducer hookunu import edin, uygulamamızın reducerı ve initialState nesnesi buradan gelecek.
-- [ ] Uygulama stateine ve gönderme fonksiyonuna erişmek için useReducer hookunu kullanın.
+- [*] Uygulama klasöründe gezinin, özellikle "App.js", "/reducer/index.js" ve "/actions/index.js" dosyaları.
+- [*] `TotalDisplay` bileşeni bir değer alır ve bu değeri stillenmiş bir textarea'da gösterir. BU BİLEŞENİ DEĞİŞTİRMENİZE GEREK YOK.
+- [*] `CalcButton` bileşeni bir `onClick` metodu ve bir değer alır, bu değeri görüntüler ve `onClick` metodunu ui butonuna ekler. BU BİLEŞENİ DEĞİŞTİRMENİZE GEREK YOK.
+- [*] App.js içine, useReducer hookunu import edin, uygulamamızın reducerı ve initialState nesnesi buradan gelecek.
+- [*] Uygulama stateine ve gönderme fonksiyonuna erişmek için useReducer hookunu kullanın.
 
 #### State'i UI'de görüntülemek.
 
 > _Artık App bileşenimizde state'e erişimimiz var (Bunu console.log ya da React dev tools'dan gözlemleyebilirsiniz). State'i örnek ekranımızdaki gibi render edelim._
 
-- [ ] Operation elemanı içindeki "X" i `state.operation` ı referans alarak değiştirin.
+- [*] Operation elemanı içindeki "X" i `state.operation` ı referans alarak değiştirin.
 - [ ] Memory elemanı içindeki "0" ı `state.memory` yi referans alarak değiştirin.
 - [ ] TotalDisplay bileşenine değer atarken "0" ı `state.total` ı referans alarak değiştirin.
 - [ ] UI'de initialState'teki değerlerle total, operation ve memory'yi kontrol edin (100, \* ve sırasıyla 100)
