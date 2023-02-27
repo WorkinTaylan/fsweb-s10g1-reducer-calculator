@@ -92,11 +92,11 @@ export const initialState = {
 
 > _Şimdi ekran görüntüleyiciyi sıfırlama özelliği ekleyeceğiz. Bunun için reducer ve action oluşturucunun tamamını kendiniz yapacaksınız._
 
-- [ ] `./reducers/index,` içinde, `CLEAR_DISPLAY` casei oluşturun. Bu case total değer statini 0 yapacak.
-- [ ] `./actions/index,` içinde, action oluşturucuyu ve `CLEAR_DISPLAY` action stringini alın. Reducer dosyanızda bu sabitleri import ettiğinizden emin olun.
-- [ ] `App.js,` içinde clearDisplay action oluşturucuyu import edin.
-- [ ] "CE" buttona clearDisplay action oluşturucunuzu ekleyen event handlerınızı oluşturun ve bağlayın.
-- [ ] clearDisplay butonunuzun düzgün çalışıp çalışmadığını test edin.
+- [*] `./reducers/index,` içinde, `CLEAR_DISPLAY` casei oluşturun. Bu case total değer statini 0 yapacak.
+- [*] `./actions/index,` içinde, action oluşturucuyu ve `CLEAR_DISPLAY` action stringini alın. Reducer dosyanızda bu sabitleri import ettiğinizden emin olun.
+- [*] `App.js,` içinde clearDisplay action oluşturucuyu import edin.
+- [*] "CE" buttona clearDisplay action oluşturucunuzu ekleyen event handlerınızı oluşturun ve bağlayın.
+- [*] clearDisplay butonunuzun düzgün çalışıp çalışmadığını test edin.
 
 #### Esnek olarak Memory fonksiyonları ekleyin.
 
