@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react';
 import reducer from './reducers';
 import { initialState } from './reducers';
-import {addOne, applyNumber,changeOperation,clearDisplay } from './actions';
+import {addOne, applyNumber,changeOperation,clearDisplay,Mem,callBackMemo, clearMemo } from './actions';
 import TotalDisplay from './components/TotalDisplay';
 import CalcButton from './components/CalcButton';
 
@@ -34,9 +34,9 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton value={"M+"} />
-              <CalcButton value={"MR"} />
-              <CalcButton value={"MC"} />
+              <CalcButton value={"M+"} onClick={()=>{dispatch(Mem())}}/>
+              <CalcButton value={"MR"} onClick={()=>{dispatch(callBackMemo(state.total))}}/>
+              <CalcButton value={"MC"} onClick={()=>{dispatch(clearMemo())}}/>
             </div>
 
             <div className="row">
