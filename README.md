@@ -82,11 +82,11 @@ export const initialState = {
 
 > _Şu anda uygulamamız sadece toplama işlemi yapıyor. Şimdi bunu değiştireceğiz. Kendi action oluşturucunuzu yaratmanın vakti geldi!_
 
-- [ ] `CHANGE_OPERATION` action'ı (`./reducer/index.js` içinde) alın. Bu reducer operatör değeri alır (+,- ve \*) ve bunu state'e aktarır.
-- [ ] Argümanı olarak bir operatör alan bir action oluşturucu oluşturun (`./actions/index.js` içinde) ve `CHANGE_OPERATION.` tipinde bir action nesnesi oluşturun
-- [ ] Yeni action oluşturucuyu `App.js` ye import edin
-- [ ] `+`, `-` ve `*` butonlarına tıklandığında, ilgili operatörü action oluşturucunuza ekleyen bir event handler oluşturun. Her buton için doğru operatörü gönderdiğinizden emin olun.
-- [ ] Operatör butonlarının doğru şekilde çalıştığından ve sayıları doğru işleme tabi tuttuğundan emin olmak için test yapın.
+- [*] `CHANGE_OPERATION` action'ı (`./reducer/index.js` içinde) alın. Bu reducer operatör değeri alır (+,- ve \*) ve bunu state'e aktarır.
+- [*] Argümanı olarak bir operatör alan bir action oluşturucu oluşturun (`./actions/index.js` içinde) ve `CHANGE_OPERATION.` tipinde bir action nesnesi oluşturun
+- [*] Yeni action oluşturucuyu `App.js` ye import edin
+- [*] `+`, `-` ve `*` butonlarına tıklandığında, ilgili operatörü action oluşturucunuza ekleyen bir event handler oluşturun. Her buton için doğru operatörü gönderdiğinizden emin olun.
+- [*] Operatör butonlarının doğru şekilde çalıştığından ve sayıları doğru işleme tabi tuttuğundan emin olmak için test yapın.
 
 #### Bir reducer ve action oluşturucu oluşturun ve bağlayın.
 

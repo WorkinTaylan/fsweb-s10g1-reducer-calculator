@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react';
 import reducer from './reducers';
 import { initialState } from './reducers';
-import {addOne, applyNumber } from './actions';
+import {addOne, applyNumber,changeOperation } from './actions';
 import TotalDisplay from './components/TotalDisplay';
 import CalcButton from './components/CalcButton';
 
@@ -16,11 +16,6 @@ function App() {
   const [state, dispatch]=useReducer(reducer, initialState);
   //console.log("stateler burda", initialState)
 
-  
-
-  function Calc(){
-    
-  }
 
   return (
     <div className="App">
@@ -57,15 +52,15 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton value={7} onClick={(e)=>{dispatch(applyNumber(7))}}/>
-              <CalcButton value={8} onClick={(e)=>{dispatch(applyNumber(8))}}/>
-              <CalcButton value={9} onClick={(e)=>{dispatch(applyNumber(9))}}/>
+              <CalcButton value={7} onClick={()=>{dispatch(applyNumber(7))}}/>
+              <CalcButton value={8} onClick={()=>{dispatch(applyNumber(8))}}/>
+              <CalcButton value={9} onClick={()=>{dispatch(applyNumber(9))}}/>
             </div>
 
             <div className="row">
-              <CalcButton value={"+"} />
-              <CalcButton value={"*"} />
-              <CalcButton value={"-"} />
+              <CalcButton value={"+"} onClick={()=>{dispatch(changeOperation('+'))}} />
+              <CalcButton value={"*"} onClick={()=>{dispatch(changeOperation('*'))}}/>
+              <CalcButton value={"-"} onClick={()=>{dispatch(changeOperation('-'))}}/>
             </div>
 
             <div className="row ce_button">
