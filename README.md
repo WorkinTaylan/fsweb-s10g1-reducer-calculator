@@ -69,14 +69,14 @@ export const initialState = {
 
 > _Her sayı için ayrı action eklemek sıkıcı olabilir. TÜM sayısal girdiler için çalışabilecek bir action ekleyelim_
 
-- [ ] `APPLY_NUMBER` action'ı (./reducer/index.js içindeki) ve `applyNumber` action oluşturuyucu (./actions/index.js içindeki) alalım. Bu action, action oluşturucuya iletilen bir sayıyı ekler, çarpar veya çıkarır.
-- [ ] `applyNumber` action oluşturucusunu `App.js.` içine import edin
-- [ ] Daha önce 1 butonuna eklediğimiz event handlerı silin ya da comment içerisine alın.
-- [ ] Argüman olarak bir sayı alan ve `applyNumber` ı ekleyen bir event handler oluşturun.
-- [ ] Bu eventhandlerı 1 butonunun onClick'ine argümanına 1 vererek aktarın. (Şunu unutmayın click handlera bir fonksiyon aktarıyoruz, fonksiyonu çalıştırmıyoruz)
-- [ ] Hala 1 butonuna basıldığında totali 1 artırıp ekrana yazdırıp yazdırmadığını test edin.
-- [ ] Yeni event handlerınızı gerekli değerleri vererek tek tek diğer butonlara da bağlayın.
-- [ ] Tüm butonlara tek tek tıklandığında totale doğru değerleri ekleyip eklemediğini test edin.
+- [*] `APPLY_NUMBER` action'ı (./reducer/index.js içindeki) ve `applyNumber` action oluşturuyucu (./actions/index.js içindeki) alalım. Bu action, action oluşturucuya iletilen bir sayıyı ekler, çarpar veya çıkarır.
+- [*] `applyNumber` action oluşturucusunu `App.js.` içine import edin
+- [*] Daha önce 1 butonuna eklediğimiz event handlerı silin ya da comment içerisine alın.
+- [*] Argüman olarak bir sayı alan ve `applyNumber` ı ekleyen bir event handler oluşturun.
+- [*] Bu eventhandlerı 1 butonunun onClick'ine argümanına 1 vererek aktarın. (Şunu unutmayın click handlera bir fonksiyon aktarıyoruz, fonksiyonu çalıştırmıyoruz)
+- [*] Hala 1 butonuna basıldığında totali 1 artırıp ekrana yazdırıp yazdırmadığını test edin.
+- [*] Yeni event handlerınızı gerekli değerleri vererek tek tek diğer butonlara da bağlayın.
+- [*] Tüm butonlara tek tek tıklandığında totale doğru değerleri ekleyip eklemediğini test edin.
 
 #### Bir action oluşturucu oluşturun ve bağlayın.
 

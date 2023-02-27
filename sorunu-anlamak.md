@@ -9,3 +9,7 @@ Her adım için kodun hangi bölümünün geçerli olduğunu listeleyin.
 * Oluşan total değerini TotalDisplay fonksiyonunda readonly value değerine atıp textareada görünür kılıyoruz.
 * Bu süreci ve TotalDisplay bileşenini kapsayan App fonksiyonunu index.js'de renderlıyoruz.
 * TotalDisplay total artı 1'i gösterdi.
+
+2- Tüm sayılar aktif edilmeli
+* Hesap makinemiz şu an sadece 1 butonuna basınca otomatik olarak ekleme yapıyor. 
+* Herhangi bir sayı butonuna basınca değer kadar işlemi yapmalı.

@@ -1,16 +1,25 @@
 import React, {useReducer} from 'react';
 import reducer from './reducers';
 import { initialState } from './reducers';
-import { addOne } from './actions';
+import {addOne, applyNumber } from './actions';
 import TotalDisplay from './components/TotalDisplay';
 import CalcButton from './components/CalcButton';
+
+/* - [ ] Argüman olarak bir sayı alan ve `applyNumber` ı ekleyen bir event handler oluşturun.
+- [ ] Bu eventhandlerı 1 butonunun onClick'ine argümanına 1 vererek aktarın. (Şunu unutmayın click handlera bir fonksiyon aktarıyoruz, fonksiyonu çalıştırmıyoruz)
+- [ ] Hala 1 butonuna basıldığında totali 1 artırıp ekrana yazdırıp yazdırmadığını test edin.
+- [ ] Yeni event handlerınızı gerekli değerleri vererek tek tek diğer butonlara da bağlayın.
+- [ ] Tüm butonlara tek tek tıklandığında totale doğru değerleri ekleyip eklemediğini test edin.
+*/
 
 function App() {
   const [state, dispatch]=useReducer(reducer, initialState);
   //console.log("stateler burda", initialState)
 
-  function addOne(){
-    dispatch({type:"ADD_ONE"})
+  
+
+  function Calc(){
+    
   }
 
   return (
@@ -36,21 +45,21 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton value={1} onClick={addOne}/>
-              <CalcButton value={2} />
-              <CalcButton value={3} />
+              <CalcButton value={1} onClick={(e)=>{dispatch(applyNumber(1))}}/*onClick={()=>{dispatch(addOne())}}*//>
+              <CalcButton value={2} onClick={(e)=>{dispatch(applyNumber(2))}}/>
+              <CalcButton value={3} onClick={(e)=>{dispatch(applyNumber(3))}}/>
             </div>
 
             <div className="row">
-              <CalcButton value={4} />
-              <CalcButton value={5} />
-              <CalcButton value={6} />
+              <CalcButton value={4} onClick={(e)=>{dispatch(applyNumber(4))}}/>
+              <CalcButton value={5} onClick={(e)=>{dispatch(applyNumber(5))}}/>
+              <CalcButton value={6} onClick={(e)=>{dispatch(applyNumber(6))}}/>
             </div>
 
             <div className="row">
-              <CalcButton value={7} />
-              <CalcButton value={8} />
-              <CalcButton value={9} />
+              <CalcButton value={7} onClick={(e)=>{dispatch(applyNumber(7))}}/>
+              <CalcButton value={8} onClick={(e)=>{dispatch(applyNumber(8))}}/>
+              <CalcButton value={9} onClick={(e)=>{dispatch(applyNumber(9))}}/>
             </div>
 
             <div className="row">
